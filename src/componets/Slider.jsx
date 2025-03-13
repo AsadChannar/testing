@@ -11,60 +11,60 @@ import Slider6 from '../images/slider-image-6.jpg'
 export default function Slider() {
   return (
     <div>
-         <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={Slider1}
-          alt="First slide"
-        />
-  
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={Slider2}
-          alt="Second slide"
-        />
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider1}
+            alt="First slide"
+          />
+
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider2}
+            alt="Second slide"
+          />
 
 
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={Slider3}
-          alt="Third slide"
-        />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider3}
+            alt="Third slide"
+          />
 
-    
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={Slider4}
-          alt="Third slide"
-        />
 
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={Slider5}
-          alt="Third slide"
-        />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider4}
+            alt="Third slide"
+          />
 
-    
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={Slider6}
-          alt="Third slide"
-        />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider5}
+            alt="Third slide"
+          />
 
-     
-      </Carousel.Item>
-    </Carousel>
+
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider6}
+            alt="Third slide"
+          />
+
+
+        </Carousel.Item>
+      </Carousel>
     </div>
   )
 }
